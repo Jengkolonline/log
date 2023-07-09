@@ -42,7 +42,7 @@ if [ -z $user ]; then
 menu
 else
 clear
-echo -e "`cat "/user/log-ws-$user.txt"`"
+echo -e "`cat "/etc/log-create-user.log"`"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
