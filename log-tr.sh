@@ -18,7 +18,7 @@ NUMBER_OF_CLIENTS=$(grep -c -E "^#! " "/etc/xray/config.json")
 if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
 clear
 echo -e "${BB}————————————————————————————————————————————————————${NC}"
-echo -e "                  ${WB}Log Vmess Account${NC}                 "
+echo -e "                  ${WB}Log Trojan Account${NC}                 "
 echo -e "${BB}————————————————————————————————————————————————————${NC}"
 echo -e "  ${YB}You have no existing clients!${NC}"
 echo -e "${BB}————————————————————————————————————————————————————${NC}"
@@ -29,7 +29,7 @@ fi
 
 clear
 echo -e "${BB}————————————————————————————————————————————————————${NC}"
-echo -e "                  ${WB}Log Vmess Account${NC}                 "
+echo -e "                  ${WB}Log Trojan Account${NC}                 "
 echo -e "${BB}————————————————————————————————————————————————————${NC}"
 echo -e " ${YB}User  Expired${NC}  " 
 echo -e "${BB}————————————————————————————————————————————————————${NC}"
